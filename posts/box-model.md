@@ -35,9 +35,7 @@ Box of content
 <p>The shorthand version:</p>
 <p><code>margin: 10px</code></p>
 
-<p>By inputing 10px only once, the code is automatically going to assume that it means for top, left, right and bottom.</p>
-
-<p>But what if you wanted top and bottom to be the same and right and left to be the same but they have different values?</p>
+<p>By inputing 10px only once, the code is automatically going to assume that it means for top, left, right and bottom. However, what if you wanted top and bottom to be the same and right and left to be the same but they have different values?</p>
 <p>Well, this is what it would look like below:</p>
 <p><code>margin: 10px 25px;</code></p>
 <p>How the example reads out is that the 10px represents the top and bottom margin, and 25px represents the left and right margin.</p>
