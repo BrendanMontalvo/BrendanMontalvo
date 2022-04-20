@@ -52,4 +52,4 @@ Box of content
 
 <p>It is important to understand this concept of shorthand as many methods of styling can use shorthand, and once you understand how to do it for one, you can do it for all different styles that utilize this such as padding and borders.</p>
 
-<footer>Last little note: There is also something called <strong>auto</strong> which you can set top and bottom margins to so that space is filled, but you cannot use auto for right and left.
+<footer>Last little note: There is also something called <strong>auto</strong> which you can set right and left margins to so that space is filled, but you cannot use auto for top and bottom.
