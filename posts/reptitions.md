@@ -1,6 +1,6 @@
 ---
-title: Importance of Repetitions
-description: This is a post on My Blog about repetitions.
+title: Importance of Repetition
+description: This is a post on My Blog about repetition.
 date: 2022-04-25
 tags:
   - CSS
