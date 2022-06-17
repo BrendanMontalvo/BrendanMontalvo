@@ -19,7 +19,6 @@ body {
   margin: 0;
   font-family: -apple-system, system-ui, sans-serif;
   color: var(--darkgray);
-  background-color: var(--white);
 }
 p:last-child {
   margin-bottom: 0;
@@ -38,6 +37,10 @@ a[href] {
 }
 a[href]:visited {
   color: var(--navy);
+}
+body {
+  background: linear-gradient(180deg, #FF928B, #FFAC81);
+  min-height: 100vh;
 }
 main {
   padding: 1rem;
@@ -88,13 +91,24 @@ pre {
 code {
   word-break: break-all;
 }
+/*Intro Paragraph*/
+.home--intro {
+  border-bottom: 1px dashed var(--lightgray);
+  font-weight: 700;
+  text-align: center;
+  font-size: 44px;
+  color: #333;
+}
 
 /* Header */
 .home {
   padding: 0 1rem;
   float: left;
   margin: 1rem 0; /* 16px /16 */
-  font-size: 1em; /* 16px /16 */
+  font-size: 1.4em; /* 1rem = 16px /16 */
+}
+.home a:hover, .nav a:hover {
+  color: #00FFFF;
 }
 .home :link:not(:hover) {
   text-decoration: none;
@@ -118,11 +132,13 @@ code {
   font-weight: 700;
   text-decoration: underline;
 }
-
 /* Posts list */
 .postlist {
   list-style: none;
   padding: 0;
+}
+.postlist-link:hover {
+  color: #00FFFF;
 }
 .postlist-item {
   display: flex;
@@ -216,4 +232,21 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+header {
+  display: grid;
+  justify-content: center;
+} 
+
+.main-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main-header .home {
+  grid-column: 1 / span 1;
+}
+
+.main-header .nav {
+  grid-column: 2 / span 2;
 }
